@@ -47,9 +47,6 @@ body {
     max-width: 600px;
 }
 
-.tulisanhome p:first-child {
-    color: #ff9d00;
-}
 
 .tulisanhome h1 {
     font-size: 50px;
@@ -130,9 +127,6 @@ td {
     border-bottom: 1px solid #333;
 }
 
-td:first-child {
-    color: #ff9d00;
-}
 
 
 /* bagian porto */
@@ -193,9 +187,6 @@ td:first-child {
     color: #ff9d00;
 }
 
-.kontak > p {
-    color: #aaa;
-}
 
 .semuakontak {
     max-width: 600px;
