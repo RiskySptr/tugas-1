@@ -1,0 +1,275 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: white;
+}
+
+
+/* navbar atas */
+
+.navbar {
+    background-color: #181818;
+    padding: 20px 8%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: #ff9d00;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu a:hover {
+    color: #ff9d00;
+}
+
+
+/* bagian awal */
+
+.home {
+    min-height: 600px;
+    padding: 40px 10%;
+
+    display: flex;
+    align-items: center;
+}
+
+.tulisanhome {
+    max-width: 600px;
+}
+
+.tulisanhome p:first-child {
+    color: #ff9d00;
+}
+
+.tulisanhome h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.tulisanhome h3 {
+    color: #bbbbbb;
+}
+
+.tulisanhome p {
+    line-height: 1.7;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #ff9d00;
+    color: black;
+
+    padding: 12px 20px;
+    margin-top: 15px;
+
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* bagian profil */
+
+.profil {
+    padding: 70px 10%;
+}
+
+.profil h1 {
+    color: #ff9d00;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.profilisi {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.fotoprofil img {
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: 5px solid #ff9d00;
+}
+
+.datadiri {
+    background-color: #181818;
+    padding: 30px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.datadiri h2 {
+    color: #ff9d00;
+}
+
+.datadiri p {
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+td:first-child {
+    color: #ff9d00;
+}
+
+
+/* bagian porto */
+
+.portofolio {
+    padding: 70px 10%;
+}
+
+.portofolio h1 {
+    color: #ff9d00;
+    text-align: center;
+}
+
+.keterangan {
+    text-align: center;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.project {
+    background-color: #181818;
+    padding: 25px;
+    margin-bottom: 20px;
+
+    display: flex;
+    gap: 30px;
+
+    border-left: 4px solid #ff9d00;
+}
+
+.project img {
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.project h2 {
+    color: #ff9d00;
+}
+
+.project p {
+    line-height: 1.6;
+}
+
+.bahasa {
+    color: #ff9d00;
+}
+
+
+/* Kontak */
+
+.kontak {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.kontak h1 {
+    color: #ff9d00;
+}
+
+.kontak > p {
+    color: #aaa;
+}
+
+.semuakontak {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.kontakbox {
+    background-color: #181818;
+    color: white;
+
+    padding: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+
+    text-align: left;
+
+    text-decoration: none;
+}
+
+.kontakbox:hover {
+    background-color: #222;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+
+    background-color: #ff9d00;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 20px;
+
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.kontakbox h3 {
+    margin: 0;
+}
+
+.kontakbox p {
+    margin: 5px 0;
+    color: #aaa;
+}
+
+
+/* bagian foter */
+
+footer {
+    background-color: #181818;
+    color: #888;
+
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.fotohome img {
+    width: 290px;
+    height: 290px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid orange;
+    margin-left: 280px;
+}
